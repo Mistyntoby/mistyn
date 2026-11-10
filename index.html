@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nicholas Fernandez — Builder</title>
+  <meta name="description" content="Portfolio of Nicholas Fernandez: software, AI and hardware projects." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#top" class="brand"><span class="badge">NF</span><span>Nicholas Fernandez</span></a>
+      <nav class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#awards">Awards</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero container">
+      <div class="hero-text">
+        <p class="eyebrow"><span class="dot"></span>Florida · Currently building</p>
+        <h1>Turning wild ideas into <span class="accent">things that work.</span></h1>
+        <p class="lead">I'm Nicholas, a student builder who makes desktop apps, AI tools and hardware, from the first sketch to a working demo.</p>
+        <div class="cta-row">
+          <a href="#projects" class="btn btn-primary">See my projects <span aria-hidden="true">→</span></a>
+          <a href="#contact" class="btn btn-ghost">Say hello</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="ring"></div>
+        <div class="hero-card">
+          <img src="images/morphix.jpg" alt="Morphix project" onerror="this.parentElement.classList.add('empty')" />
+          <span class="placeholder-label">images/morphix.jpg</span>
+        </div>
+        <div class="float-badge">
+          <span class="trophy">🏆</span>
+          <div><strong>1st Place</strong><small>SharkByte 2026</small></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TICKER -->
+    <section class="ticker">
+      <span>AI Tools</span><i></i><span>Desktop Apps</span><i></i><span>Hardware</span><i></i><span>Hackathons</span>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section container">
+      <div class="section-head">
+        <div>
+          <p class="kicker">Projects · 01</p>
+          <h2>Stuff I've shipped.</h2>
+        </div>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <div class="card-img">
+            <img src="images/morphix.jpg" alt="Morphix" onerror="this.parentElement.classList.add('empty')" />
+            <span class="placeholder-label">images/morphix.jpg</span>
+          </div>
+          <div class="card-body">
+            <p class="kicker">AI × 3D printing · SharkByte 2026</p>
+            <h3>Morphix <span class="arrow">↗</span></h3>
+            <p>An AI-powered 3D printing system that turns a description into a physical object. Built at the SharkByte hackathon, where it took 1st place.</p>
+            <div class="tags"><span>Gemini</span><span>3D Printing</span><span>Hardware</span></div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-img">
+            <img src="images/clawd-buddy.png" alt="Clawd Buddy" onerror="this.parentElement.classList.add('empty')" />
+            <span class="placeholder-label">images/clawd-buddy.png</span>
+          </div>
+          <div class="card-body">
+            <p class="kicker">Desktop companion × AI</p>
+            <h3>Clawd Buddy <span class="arrow">↗</span></h3>
+            <p>A pixel desktop pet that wanders your screen, tells jokes, keeps reminders and chats with you through a tiny retro terminal powered by Claude.</p>
+            <div class="tags"><span>Electron</span><span>TypeScript</span><span>Claude</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- AWARDS -->
+    <section id="awards" class="band">
+      <div class="container band-inner">
+        <div>
+          <p class="kicker">Awards · 02</p>
+          <h2>First hackathon.<br />First place.</h2>
+        </div>
+        <ul class="award-list">
+          <li><strong>SharkByte Hackathon</strong><span>Morphix · 1st Place</span><em>Nov 2026</em></li>
+          <li><strong>Clawd Buddy</strong><span>Open-source release</span><em>2026</em></li>
+          <li class="next"><strong><span class="dot"></span>Next: more building</strong><span>Stay tuned</span><em></em></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section container split">
+      <div>
+        <p class="kicker">About · 03</p>
+        <h2>I build to find out how things work.</h2>
+      </div>
+      <div>
+        <p class="about-text">Software, AI and hardware all get more interesting when they meet. I like picking a problem, getting a rough version running fast, then polishing it until people actually want to use it.</p>
+        <div class="chips"><span>📍 Florida</span><span>Student builder</span><span>Hackathon winner</span></div>
+        <a class="link-line" href="https://github.com/Mistyntoby" target="_blank" rel="noopener">See my GitHub <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="footer container">
+    <div class="footer-top">
+      <div>
+        <a href="#top" class="brand"><span class="badge">NF</span><span>Nicholas Fernandez</span></a>
+        <p class="muted">Building fun, useful technology across software, AI and hardware.</p>
+      </div>
+      <nav class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#awards">Awards</a>
+        <a href="#about">About</a>
+        <a href="https://github.com/Mistyntoby" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+    <p class="mono muted small">© <span id="year">2026</span> Nicholas Fernandez</p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
